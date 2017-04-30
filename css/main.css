@@ -200,3 +200,25 @@ a.button:hover{
   letter-spacing: 0.1px;
   font-size: 14px;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 622px){
+  .search-box input{
+    width: 80%;
+  }
+
+  .search-box img{
+    padding: 80px 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .search-box input{
+    width: 80%;
+  }
+  .search-box img{
+    width: 40%;
+  }
+
+}
